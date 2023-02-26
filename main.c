@@ -32,7 +32,7 @@ void Right_load(int loadRight, GPIO_PinState PinState){
 	GPIO_Init(GPIOA, &PA7);
 	if(loadRight == 3){
 			GPIO_WritePin(GPIOA, PA7.Pin,  high);
-			//ms_delay(250);
+			
 			GPIO_WritePin(GPIOA, PA6.Pin,  high);
 			//ms_delay(250);
 			GPIO_WritePin(GPIOA, PA5.Pin,  high);
@@ -62,7 +62,7 @@ void Left_load(int loadLeft, GPIO_PinState PinState){
 	
 	if(loadLeft == 3){
 			GPIO_WritePin(GPIOB, PB15.Pin,  high);
-			//ms_delay(250);
+			
       GPIO_WritePin(GPIOB, PB14.Pin,  high);
 			//ms_delay(250);
 			GPIO_WritePin(GPIOB, PB13.Pin,  high);
