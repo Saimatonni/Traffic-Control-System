@@ -7,3 +7,4 @@ the system, such as sensors and displays, through a selected communication
 protocol. The design and implementation of the firmware are discussed in
 detail and the results of testing are presented.
 
+
